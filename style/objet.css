@@ -1,0 +1,85 @@
+/* ========================================= */
+/* ========================================= */
+/* === PAGE OBJET ========================== */
+/* ========================================= */
+/* ========================================= */
+
+/* Div globale englobant les informations de l'objet */
+#objet {
+  display: block;
+  text-align: center;
+  width: auto;
+  height: auto;
+}
+
+.titre {
+  color: #303030;
+  font-size: 200%;
+  font-family: 'breeserif';
+  text-decoration: underline;
+}
+.text {
+  color: #bcbcbc;
+  margin-top: -20px;
+  text-align: justify;
+  font-family: 'breeserif';
+  font-size: 130%;
+}
+
+#objet_titre {
+  font-size: 400%;
+  font-family: 'code_bold';
+  margin-bottom: 5px;
+}
+a {
+  color: #474747;
+  font-size: 170%;
+  text-decoration: none;
+  font-family: 'code_bold';
+}
+a:hover {
+  color: #787878;
+  border-bottom: 2px solid #787878;
+}
+
+#objet_image {
+  width: 300px;
+  height: 300px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#objet_image_image {
+  width: 300px;
+  height: 300px;
+}
+
+#objet_desc {
+  margin-left: 18%;
+  margin-right: 18%;
+}
+
+#objet_statut {
+  float: left;
+  margin-top: -25%;
+  margin-left: 10%;
+  text-align: left;
+}
+
+#objet_etat {
+  float: left;
+  margin-top: -25%;
+  margin-left: 20%;
+}
+
+#objet_categorie {
+  float: right;
+  margin-top: -25%;
+  margin-right: 8%;
+}
+
+#objet_souscategorie {
+  float: right;
+  margin-top: -25%;
+  margin-right: 20%;
+}

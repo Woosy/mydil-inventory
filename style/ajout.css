@@ -1,0 +1,92 @@
+/* ========================================= */
+/* ========================================= */
+/* === FORMULAIRE ========================== */
+/* ========================================= */
+/* ========================================= */
+
+#form {
+  height: 600px;
+  display: block;
+  text-align: center;
+}
+
+#form_titre {
+  display: block;
+  text-align: center;
+
+  color: #303030;
+  font: bold 13px;
+  font-size: 310%;
+  font-family: 'breeserif';
+}
+#form_desc {
+  display: block;
+  text-align: center;
+
+  color: #bcbcbc;
+  font-size: 140%;
+  font-family: 'greyscale';
+  margin-bottom: 30px;
+  margin-top: -30px;
+}
+
+.form_champ {
+  width: 300px;
+  height: 30px;
+  padding-left: 1%;
+
+  color: #bcbcbc;
+  font-size: 14px;
+  font-family: 'breeserif';
+  border: none;
+  border-left: 2px solid #303030;
+  border-bottom: 2px solid #4a4a4a;
+  background-color: #626262;
+}
+#form_champ_desc {
+  width: 300px;
+  height: 150px;
+  padding-left: 1%;
+
+  color: #bcbcbc;
+  font-size: 14px;
+  font-family: 'breeserif';
+  border: none;
+  border-left: 2px solid #303030;
+  border-bottom: 2px solid #4a4a4a;
+  background-color: #626262;
+}
+
+#form_envoyer {
+  display: block;
+  box-sizing: border-box;
+  border: 2px solid white;
+  border-radius: 8px;
+  color:#fff;
+  font-family: 'breeserif';
+  font-size: 125%;
+  background-color: #626262;
+
+  width: 175px;
+  height: 40px;
+  margin-top: 1.5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#form_envoyer:hover {
+  color: #303030;
+  background-color: #626262;
+  border: 2px solid #303030;
+}
+
+#form_pasdecompte {
+  color: #bcbcbc;
+  font-size: 120%;
+  font-family: 'greyscale';
+  text-decoration: none;
+}
+#form_pasdecompte:hover {
+  color: #d2d2d2;
+  text-decoration: underline;*
+}

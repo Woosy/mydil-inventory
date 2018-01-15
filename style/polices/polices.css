@@ -1,0 +1,32 @@
+/* Généralitées */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #626262;
+}
+
+/* Déclaration des polices d'écriture */
+@font-face {
+  font-family: 'greyscale';
+  src: url('greyscale.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'greyscale_bold';
+  src: url('greyscale_bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'moderna';
+  src: url('moderna.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'breeserif';
+  src: url('breeserif.otf') format('opentype');
+}
+@font-face {
+  font-family: 'code';
+  src: url('code.otf') format('opentype');
+}
+@font-face {
+  font-family: 'code_bold';
+  src: url('code_bold.otf') format('opentype');
+}

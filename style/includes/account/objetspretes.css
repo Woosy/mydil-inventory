@@ -1,0 +1,127 @@
+/* ========================================= */
+/* ========================================= */
+/* === Général ============================= */
+/* ========================================= */
+/* ========================================= */
+
+body {
+  background-color: #626262;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+#section {
+  width: auto;
+  height: 600px;
+  display: block;
+
+  margin: 10px;
+  margin-left: 170px;
+}
+
+
+/* ========================================= */
+/* ========================================= */
+/* === Cases de objets =================== */
+/* ========================================= */
+/* ========================================= */
+
+/* Div globale contenant tout les objets  */
+#section {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Div des "cases" */
+#section_objet {
+  margin: 15px;
+}
+#section_objet:hover {
+  background-color: #e5e5e5;
+}
+
+
+/* Balise img contenant l'image de l'objet (taille FIXE) */
+#section_objet_image {
+  height: 190px;
+  width: 190px;
+  margin-left: 16px;
+}
+
+#section_objet_infos {
+  border : silver 1px solid;
+  border-top: none;
+  border-radius: 5px;
+  width: 220px;
+  height: 120px;
+
+}
+
+
+
+#section_objet_infos_nom {
+  color: #303030;
+  font-size: 23px;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'code_bold';
+}
+#section_objet_infos_nom:hover {
+  color: #bcbcbc;
+}
+
+/* Lien permettant à l'admin de supprimer l'objet*/
+#section_objet_supp {
+  float: right;
+  margin-top: -70px;
+  margin-right: 14px;
+
+  color: #303030;
+  font-size: 60%;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'breeserif';
+}
+#section_objet_infos_nom:hover {
+  color: #bcbcbc;
+}
+
+#section_objet_infos_categories {
+  color: #bcbcbc;
+  padding-left: 10px;
+  font-size: 105%;
+  font-family: 'greyscale_bold';
+  line-height: 130%;
+}
+
+#section_objet_infos_dispo {
+  float: left;
+  margin-top: -10px;
+  color: #15bf15;
+  font-size: 80%;
+  padding-left: 10px;
+  font-family: 'code_bold';
+}
+
+#section_objet_infos_indispo {
+  float: left;
+  margin-top: -11px;
+  color: #bf151f;
+  font-size: 75%;
+  padding-left: 10px;
+  font-family: 'code_bold';
+}
+
+#section_objet_infos_dateretour {
+  float: right;
+  margin-right: 14px;
+  margin-top: -28px;
+  font-size: 60%;
+  color: #303030;
+  font-family: 'breeserif';
+}

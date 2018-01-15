@@ -1,0 +1,98 @@
+/* ========================================= */
+/* ========================================= */
+/* === Général ============================= */
+/* ========================================= */
+/* ========================================= */
+
+body {
+  background-color: #626262;
+}
+
+
+#section {
+  width: auto;
+  height: 600px;
+  display: block;
+
+  margin: 10px;
+  margin-left: 170px;
+}
+
+
+/* ========================================= */
+/* ========================================= */
+/* === Cases de demandes =================== */
+/* ========================================= */
+/* ========================================= */
+
+#section_demande {
+  width: auto;
+  height: 140px;
+  display: block;
+  margin: 5px;
+  font-family: "Calibri";
+
+  border-bottom: 2px solid #4B4B4B;
+  border-left: 2px solid #4B4B4B;
+}
+
+#section_demande_infos {
+  height: 140px;
+  width: 15%;
+  text-align: center;
+  border-right: 2px solid #4B4B4B;
+}
+
+#section_demande_auteur {
+  font-weight: bold;
+  font-size: 115%;
+}
+
+#section_demande_objet {
+  font-weight: bold;
+  font-size: 115%;
+}
+
+#section_demande_statut {
+  height: 23px;
+  width: 75px;
+  margin-top: 6px;
+}
+
+#section_demande_msg {
+  text-align: justify;
+}
+
+
+
+
+#section_demande_message {
+  height: 140px;
+  width: 75%;
+
+  margin-top: -150px;
+  margin-right: 9%;
+  float: right;
+}
+
+#section_demande_admin {
+  height: 140px;
+  width: 9%;
+
+  margin-top: -140px;
+  float: right;
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bold;
+
+  border-left: 2px solid #4B4B4B;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #4B4B4B;
+}

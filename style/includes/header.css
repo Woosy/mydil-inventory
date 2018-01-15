@@ -1,0 +1,54 @@
+/* ========================================= */
+/* ========================================= */
+/* === HEADER ============================== */
+/* ========================================= */
+/* ========================================= */
+
+
+#header {
+  height: 80px;
+  border-bottom: 1px solid #333030;
+
+  background-color: #4B4B4B;
+}
+
+
+#header_logo {
+  float: left;
+  margin-top: 8px;
+  margin-left: 15px;
+
+  width: 150px;
+  height: 60px;
+}
+
+#header_titre {
+  float: left;
+  margin-top: 14px;
+  margin-left: 15px;
+
+  color: black;
+  font-size: 340%;
+  text-align: center;
+  font-family: 'code_bold';
+}
+
+.selected {
+  color: #787878;
+  border-bottom: 2px solid #787878;
+}
+
+.header_bouton {
+  float: right;
+  margin-top: 26px;
+  margin-right: 20px;
+
+  color: black;
+  font-size: 180%;
+  text-decoration: none;
+  font-family: 'code_bold';
+}
+.header_bouton:hover {
+  color: #787878;
+  border-bottom: 2px solid #787878;
+}

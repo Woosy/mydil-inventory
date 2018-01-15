@@ -1,0 +1,142 @@
+/* ========================================= */
+/* ========================================= */
+/* === MENU DE GAUCHE ====================== */
+/* ========================================= */
+/* ========================================= */
+
+/* Div globale */
+#compte_menu {
+  color: white;
+  width: 170px;
+  height: 800px;
+
+  position: fixed;
+  background-color: #4B4B4B;
+}
+
+
+/* DEMANDES */
+  #compte_menu_demandes {
+    color: white;
+    width: 170px;
+    height: 35px;
+  }
+  #compte_menu_demandes:hover {
+    background-color: #425e6d;
+  }
+  #compte_menu_demandes_label {
+    float: right;
+    margin-top: 5px;
+    margin-right: 29px;
+
+    text-align: center;
+    font-family: 'breeserif';
+  }
+  #compte_menu_demandes_logo {
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+
+    width: 25px;
+    height: 25px;
+  }
+/* ---------- */
+
+
+/* EMPRUNTS EN COURS */
+  #compte_menu_emprunts {
+    color: white;
+    width: 170px;
+    height: 35px;
+  }
+  #compte_menu_emprunts:hover {
+    background-color: #425e6d;
+  }
+  #compte_menu_emprunts_label {
+    float: right;
+    margin-top: -4px;
+    margin-right: 32px;
+
+    text-align: center;
+    font-family: 'breeserif';
+  }
+  #compte_menu_emprunts_logo {
+    float: left;
+    margin-top: 0px;
+    margin-left: 5px;
+
+    width: 22px;
+    height: 22px;
+  }
+/* ---------- */
+
+
+/* DEMANDES EN ATTENTE (admin only) */
+  #compte_menu_demandesattente {
+    color: white;
+    width: 170px;
+    height: 35px;
+  }
+  #compte_menu_demandesattente:hover {
+    background-color: #425e6d;
+  }
+  #compte_menu_demandesattente_label {
+    float: right;
+    margin-top: -4px;
+    margin-right: 5px;
+
+    text-align: center;
+    font-family: 'breeserif';
+  }
+  #compte_menu_demandesattente_logo {
+    float: left;
+    margin-top: 0px;
+    margin-left: 5px;
+
+    width: 22px;
+    height: 22px;
+  }
+/* ---------- */
+
+
+/* OBJETS PRÊTÉS (admin only) */
+  #compte_menu_objetspretes {
+    color: white;
+    width: 170px;
+    height: 35px;
+  }
+  #compte_menu_objetspretes:hover {
+    background-color: #425e6d;
+  }
+  #compte_menu_objetspretes_label {
+    float: right;
+    margin-top: -4px;
+    margin-right: 43px;
+
+    text-align: center;
+    font-family: 'breeserif';
+  }
+  #compte_menu_objetspretes_logo {
+    float: left;
+    margin-top: 0px;
+    margin-left: 5px;
+
+    width: 22px;
+    height: 22px;
+  }
+/* ---------- */
+
+
+
+/* ========================================= */
+/* ========================================= */
+/* === AUTRES ============================== */
+/* ========================================= */
+/* ========================================= */
+
+.compte_menu_selected {
+  background-color: #626262;
+}
+.compte_menu_selected:hover {
+  background-color: #626262;
+}
